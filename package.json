@@ -1,0 +1,8 @@
+{
+  "name": "@alpha-dao/config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alpha-dao/config",
+  "author": "Junho Yeo <i@junho.io>",
+  "license": "MIT"
+}
