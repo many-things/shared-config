@@ -1,0 +1,12 @@
+{
+  "name": "@alpha-dao/shared-config",
+  "version": "1.0.0",
+  "repository": "https://github.com/alpha-dao/config/tree/main/packages/shared-config",
+  "author": "Alphaworks",
+  "main": "tsconfig.json",
+  "license": "MIT",
+  "dependencies": {
+    "@alpha-dao/prettier": "^1.0.0",
+    "@alpha-dao/tsconfig": "^1.0.0"
+  }
+}

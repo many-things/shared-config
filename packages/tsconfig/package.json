@@ -1,0 +1,8 @@
+{
+  "name": "@alpha-dao/tsconfig",
+  "version": "1.0.0",
+  "main": "tsconfig.json",
+  "repository": "https://github.com/alpha-dao/config/tree/main/packages/tsconfig",
+  "author": "Alphaworks",
+  "license": "MIT"
+}

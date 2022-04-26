@@ -1,0 +1,8 @@
+{
+  "name": "@alpha-dao/prettier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alpha-dao/config/tree/main/packages/prettier",
+  "author": "Alphaworks",
+  "license": "MIT"
+}

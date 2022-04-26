@@ -1,0 +1,14 @@
+{
+  "name": "@alpha-dao/config",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/alpha-dao/config",
+  "author": "Alphaworks",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
