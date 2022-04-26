@@ -3,11 +3,11 @@
 ## Usage
 
 ### TypeScript
-Extend your own `tsconfig.json` file from `@alpha-dao/config/typescript`, which refers to the static JSON file.
+Extend your own `tsconfig.json` file from `@alpha-dao/config/tsconfig.json`, which refers to the static JSON file.
 
 ```json
 {
-  "extends": "@alpha-dao/config/typescript",
+  "extends": "@alpha-dao/config/tsconfig.json",
   "compilerOptions": {
     "outDir": "build"
   }
