@@ -3,9 +3,9 @@
 ## Usage
 
 ### TypeScript
+Extend your own `tsconfig.json` file from `@alpha-dao/config/typescript`, which refers to the static JSON file.
 
 ```json
-// tsconfig.json
 {
   "extends": "@alpha-dao/config/typescript",
   "compilerOptions": {
@@ -15,9 +15,9 @@
 ```
 
 ### Prettier
+Extend your own configurations in `.prettierrc.js` with the spread operator as follows:
 
 ```js
-// .prettierrc.js
 module.exports = {
   ...require('@alpha-dao/config/prettier'),
 }
