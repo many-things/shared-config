@@ -3,7 +3,9 @@
 ## Usage
 
 ### TypeScript
-Extend your own `tsconfig.json` file from `@alpha-dao/config/tsconfig.json`, which refers to the static JSON file.
+
+- Add configurations [here](https://github.com/alpha-dao/config/blob/main/tsconfig.json) 👍
+- Extend your own `tsconfig.json` file from `@alpha-dao/config/tsconfig.json`, which refers to the static JSON file.
 
 ```json
 {
@@ -15,10 +17,12 @@ Extend your own `tsconfig.json` file from `@alpha-dao/config/tsconfig.json`, whi
 ```
 
 ### Prettier
-Extend your own configurations in `.prettierrc.js` with the spread operator as follows:
+
+- Add Prettier rules [here](https://github.com/alpha-dao/config/blob/main/prettier.js) 👍
+- Extend your own configurations in `.prettierrc.js` with the spread operator as follows:
 
 ```js
 module.exports = {
-  ...require('@alpha-dao/config/prettier'),
-}
+  ...require("@alpha-dao/config/prettier"),
+};
 ```
